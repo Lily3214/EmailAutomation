@@ -16,6 +16,8 @@ dependencies {
     implementation ("com.google.oauth-client:google-oauth-client-jetty:1.34.1")
     implementation ("com.google.apis:google-api-services-gmail:v1-rev20220404-2.0.0")
     implementation ("javax.mail:mail:1.4.7")
+    implementation("org.apache.commons:commons-csv:1.10.0")
+    implementation("com.sun.mail:javax.mail:1.6.2")
 }
 
 tasks.test {
